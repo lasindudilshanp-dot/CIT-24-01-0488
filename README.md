@@ -96,13 +96,3 @@ Stopping app ...
 Removed app.
 ```
 
-## Project File Structure
-my-docker-app/
-├── app.py              # Flask web application
-├── requirements.txt    # Python dependencies
-├── Dockerfile          # Instructions to build Flask image
-├── prepare-app.sh      # Build image, create network and volume
-├── start-app.sh        # Start all containers
-├── stop-app.sh         # Stop containers (preserve data)
-├── remove-app.sh       # Remove all Docker resources
-└── README.md           # This file
